@@ -1,10 +1,12 @@
 import "./Gallery.css";
 
+
 export default function showGallery(){
-    return(
-        <div className="Gallery"><section><h4>Dai un occhiata ad alcuni dei miei lavori recenti:</h4>
+    return(<div className="row">
+        <div className="col-4"><section><h4>Ultime creazioni</h4>
+        <img src="img1.jpeg" alt="flower" className="img-fluid" ></img>
         </section>
         
-        </div>
+        </div></div>
     )
 }

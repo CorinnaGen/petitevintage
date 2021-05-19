@@ -2,10 +2,11 @@ section{
     background:white;
     padding: 30px;
     padding-left: 50px;
-    border-radius: 20px;
+    border-radius: 10px;
     margin: 20px 0;
     box-shadow: 2px 2px 2px rgba(0,0,0,0.7);
     width: 850px;
+    border-style:solid;
 }
 
 h2{
@@ -13,4 +14,6 @@ h2{
     font-size: 15px;
     text-transform: uppercase;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#083836;
+    font-weight: bold;
 }
