@@ -10,11 +10,14 @@ function App() {
       <header className="App-header">
     <h1>Petite Vintage</h1>
       </header>
+      <main>
       <Info/>
+      <br/>
       <Gallery/>
+      <br/>
       <Contact/>
-      
-      <footer></footer>
+      </main>
+      <footer><a href="https://github.com/CorinnaGen/dictionary-app">Who did this?</a></footer>
     </div>
   );
 }
