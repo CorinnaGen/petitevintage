@@ -1,5 +1,6 @@
 import "./Gallery.css";
-import img1 from "./img1.jpeg";
+import Carousel from "./Carousel";
+
 
 
 export default function showGallery(){
@@ -7,7 +8,9 @@ export default function showGallery(){
        <h4>Ultime creazioni</h4>
         <br/>
         <section>
-        <img src={img1.jpeg} alt="flower" className="img-fluid" />
+            <div className="row">
+        <Carousel/>
+           </div>
         </section>
         
         </div>
