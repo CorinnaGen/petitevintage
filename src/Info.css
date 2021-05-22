@@ -17,3 +17,8 @@ h2{
     color:#083836;
     font-weight: bold;
 }
+ul{
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#083836;
+}

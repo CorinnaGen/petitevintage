@@ -5,6 +5,10 @@ export default function displayInfo(){return (
         <section>
            <h2>Su di me</h2> 
            <p>.......</p>
+           <ul>
+           <li>prova</li>
+           <li>prova</li>
+           <li>prova</li></ul>
         </section>
     </div>);
 }

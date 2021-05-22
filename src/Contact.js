@@ -6,7 +6,7 @@ export default function Contact(){
         <div className="Contact">
             <h3>Contattami</h3>
             <section>
-             <form action="mariaferrieri@live.it">
+             <form action="petitevintagecrafts@gmail.com">
                 <button>Scrivimi</button>
             </form>  
             </section>
