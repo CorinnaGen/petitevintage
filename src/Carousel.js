@@ -1,40 +1,41 @@
 import React, {useState} from "react";
 import "./Carousel.scss";
-
+import Imgs from "./Imgs";
+import img1 from "./imgs/img1.jpeg";
+import img2 from "./imgs/img2.jpeg";
+import img3 from "./imgs/img3.jpeg";
+import img4 from "./imgs/img4.jpeg";
 
 export default function Carousel(){
-    let CarArray=[1,2,3,4];
+    let CarArray=[<Imgs src={img1}/>,<Imgs src={img2}/>,<Imgs src={img3}/>,<Imgs src={img4}/>
+    ];
 
     const [x,setX] = useState(0)
     const goLeft = () => {
-        console.log("left");
-        setX(x + 100);
+        x === 0 ? setX(-100 *(CarArray.lenght-1)) : setX(x + 100);
+        
     }    
 
 
     const goRight = () =>  {
-        console.log("right");
-        setX(x - 100);
+       (x === -100*(CarArray.lenght-1))?setX(0):setX(x - 100);
     }    
 
     return(
-        <div className="Carousel">
+        <div className="Slider">
             {
                 CarArray.map((item,index)=>{
                     return(
-                        <div key={index} className="carousel">
+                        <div key={index} className="slide" style={{transform: `translateX(${x}%)`}}>
                             {item}
                             </div>
 
                     );
                 })
             }
-            <button id="goLeft" onClick={goLeft}>left</button>
-            <button id="goRight" onClick={goRight}>right</button>
-            <form action="mailto:xinatowner@gmail.com">
-                <input ></input>
-                <button>Send mail</button>
-            </form>    
+            <button id="goLeft" onClick={goLeft}>←</button>
+            <button id="goRight" onClick={goRight}>→</button>
+             
         </div>
     )
 }

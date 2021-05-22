@@ -4,9 +4,11 @@ import "./Contact.css";
 export default function Contact(){
     return(
         <div className="Contact">
-            <h3>Contattami:</h3>
+            <h3>Contattami</h3>
             <section>
-            <p>...</p>
+             <form action="mariaferrieri@live.it">
+                <button>Scrivimi</button>
+            </form>  
             </section>
         </div>
     );
