@@ -6,11 +6,9 @@ export default function Contact(){
         <div className="Contact">
             <h3>Contattami</h3>
             <section>
-             <form action="petitevintagecrafts@gmail.com">
-                 <input></input>
-                <button>Scrivimi</button>
-            </form>  
-            </section>
+            <p id="mail"> petitevintagecrafts@gmail.com</p>
+            <p id="insta">Seguimi su Instagram!</p>
+                </section>
         </div>
     );
 }

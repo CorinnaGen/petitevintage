@@ -6,3 +6,14 @@ h3{
     padding-top: 45px;
     font-weight: bold;
 }
+
+p{
+    text-align:left;
+    font-size: 25px;
+    color: #083836;
+    font-weight: bold;
+}
+
+#insta{
+    text-align: center;
+}
