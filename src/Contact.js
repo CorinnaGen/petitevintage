@@ -7,6 +7,7 @@ export default function Contact(){
             <h3>Contattami</h3>
             <section>
              <form action="petitevintagecrafts@gmail.com">
+                 <input></input>
                 <button>Scrivimi</button>
             </form>  
             </section>
