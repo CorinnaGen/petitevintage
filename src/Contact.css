@@ -11,9 +11,11 @@ p{
     text-align:left;
     font-size: 25px;
     color: #083836;
-    font-weight: bold;
+    font-weight: lighter;
 }
 
-#insta{
-    text-align: center;
+
+a{
+    font-size: 20px;
+    font-weight: bold;
 }

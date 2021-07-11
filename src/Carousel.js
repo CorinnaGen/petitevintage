@@ -5,9 +5,15 @@ import img1 from "./imgs/img1.jpeg";
 import img2 from "./imgs/img2.jpeg";
 import img3 from "./imgs/img3.jpeg";
 import img4 from "./imgs/img4.jpeg";
+import img5 from "./imgs/img5.jpg";
+import img6 from "./imgs/img6.jpg";
+import img7 from "./imgs/img7.jpg";
+import img8 from "./imgs/img8.jpeg";
+import img9 from "./imgs/img9.jpeg";
 
 export default function Carousel(){
-    let CarArray=[<Imgs src={img1}/>,<Imgs src={img2}/>,<Imgs src={img3}/>,<Imgs src={img4}/>
+    let CarArray=[<Imgs src={img1}/>,<Imgs src={img2}/>,<Imgs src={img3}/>,<Imgs src={img4}/>, <Imgs src={img5}/>, <Imgs src={img6}/>, <Imgs src={img7}/>,
+        <Imgs src={img8}/>,<Imgs src={img9}/>
     ];
 
     const [x,setX] = useState(0)

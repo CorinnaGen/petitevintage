@@ -17,7 +17,7 @@ function App() {
       <br/>
       <Contact/>
       </main>
-      <footer><a href="https://github.com/CorinnaGen/dictionary-app">Who did this?</a></footer>
+      <footer><a href="https://github.com/CorinnaGen">Who did this?</a></footer>
     </div>
   );
 }
